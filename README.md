@@ -11,6 +11,7 @@ invoice_system/
 ├── logout.php                 ← Ends session, redirects to login
 ├── index.php                  ← Dashboard (protected)
 ├── database.sql               ← Import in phpMyAdmin first
+├── setup_users.php            ← Need to run this file once to seed users 
 ├── includes/
 │   ├── config.php             ← DB config, session & auth helpers
 │   ├── header.php             ← Sidebar + topbar (auth-aware)
